@@ -9,15 +9,15 @@ import SignupPage from "./Components/SignupPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/" element={ <SignupPage/>} />
-        <Route path="/Login" element={ <LoginPage />} />
-        <Route path="/Home" element={ <Home />} />
-        <Route path="/Services" element={ <Services/> } />
-        <Route path="/Experiences" element={ <Experiences/>}/>
-        <Route path="/Contact" element={ <Contact/>}/>
-        <Route path="/Social" element={ <Social/>}/>
+        <Route exact path="/" element={ <SignupPage/>} />
+        <Route exact path="/Login" element={ <LoginPage />} />
+        <Route exact path="/Home" element={ <Home />} />
+        <Route exact path="/Services" element={ <Services/> } />
+        <Route exact path="/Experiences" element={ <Experiences/>}/>
+        <Route exact path="/Contact" element={ <Contact/>}/>
+        <Route exact path="/Social" element={ <Social/>}/>
       </Routes>  
     </Router>
   );

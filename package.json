@@ -1,8 +1,8 @@
 {
   "name": "portfolio-react",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "http://christokj.github.io/portfolio-react",
+  "private": false,
+  "homepage": "https://christokj.github.io/portfolio-react",
   "dependencies": {
     "@react-css/flex": "^2.2.0",
     "@testing-library/jest-dom": "^5.17.0",
