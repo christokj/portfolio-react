@@ -1,0 +1,11 @@
+
+.contact_form{
+        padding-top: 100px;
+        margin: 0 8% 0 8%; 
+}
+.contact_msg{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding-bottom: 20%;
+}

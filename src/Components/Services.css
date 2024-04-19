@@ -1,0 +1,110 @@
+*{
+         ::-webkit-scrollbar {
+            width: 10px;
+      }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+      }
+        ::-webkit-scrollbar-thumb {
+            background: #888; 
+            border-radius:20px;
+
+      }
+         ::-webkit-scrollbar-thumb:hover {
+        
+            background: #555; 
+      } 
+}
+body{
+    overflow-x:hidden;
+}
+@media only screen and (min-device-width: 1000px) and (max-device-width: 3000px) {
+    .services_bg{
+        background-image: url(./Images/services-bg.jpg);
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        margin-top: -200px;
+    }
+    .services_cards{
+        padding-top: 300px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    .services_col{
+        width: 300px;
+        max-height: 300px;
+    }
+    .services_card_body{
+        height: 80px;
+    }
+  
+}
+@media only screen and (min-device-width: 700px) and (max-device-width: 1000px) {
+    .services_bg{
+        background-image: url(./Images/services-bg_below_1000.jpg);
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        margin-top: -200px;
+    }
+    .services_cards{
+        padding-top: 300px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .services_col{
+        width: 30%;
+    }
+    .services_card_body{
+        height: 70px;
+    }
+
+}
+@media only screen and (min-device-width: 300px) and (max-device-width: 700px) {
+    .services_bg{
+        background-image: url(./Images/services-bg_below_700.jpg);
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        margin-top: -200px;
+    }
+    .services_cards{
+        padding-top: 300px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .services_col{
+        width: 30%;
+        height: 130px;
+    }
+    .services_text{
+        font-size: medium;
+    }
+    .services_card_body{
+        height: 60px;
+    }
+}
+@media only screen and (max-device-width: 500px) {
+    .services_bg{
+        background-image: url(./Images/services-bg_below_700.jpg);
+        width: 100%;
+        height: 1200px;
+        background-size: cover;
+        margin-top: -250px;
+    }
+    .services_cards{
+        padding-top: 350px;
+       
+    }
+    .services_col{
+        width: 30%;
+        height: 130px;
+    }
+    .services_text{
+        font-size: small;
+    }
+    .services_card_body{
+        height: 70px;
+    }
+}

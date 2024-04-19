@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+body {
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.title_bio{ 
+   align-content: center;
+}
+@media only screen and (min-device-width: 767px) and (max-device-width: 3000px) {
+  .text_color{
+    color: #ffff;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  .text_color{
+    color: black;
+    font-size: small;
+  }
+  .title_bio{ 
+    margin-top: 100px;
+ }
+}
+

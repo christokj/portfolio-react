@@ -1,0 +1,85 @@
+
+@media only screen and (min-device-width: 1300px) {  
+.experience_bg{
+    background-image: url(./Images/experiences_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200vh;
+    width: 250vh;
+}
+.Experience_cards{
+    padding-top: 100px;
+    width: 900px;
+    padding-left: 30px;
+}
+.exp_cards_col{
+    height: 280px;
+}
+.exp_card_img{
+    height: 170px;
+}
+}
+@media only screen and (max-device-width: 1300px) { 
+    .experience_bg{
+        background-image: url(./Images/experiences_bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 150vh;
+        width: 200vh;
+        margin-left: -150px;
+    }
+    .Experience_cards{
+        padding-top: 100px;
+        width: 1000px;
+        padding-left: 200px;
+    }
+    .exp_cards_col{
+        height: 280px;
+    }
+    .exp_card_img{
+        height: 150px;
+    }
+}
+@media only screen and (max-device-width: 768px) {
+    .experience_bg{
+        background-image: url(./Images/experiences_bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300vh;
+        width: 250vh;
+        margin-left: -150px;
+    }
+    .Experience_cards{
+        padding-top: 100px;
+        width: 900px;
+        padding-left: 200px;
+    }
+    .exp_cards_col{
+        height: 250px;
+    }
+    .exp_card_img{
+        height: 150px;
+    }
+}
+@media only screen and (max-device-width: 576px) {
+    .experience_bg{
+        background-image: url(./Images/experiences_bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 350vh;
+        width: 100vh;
+        margin-left: -150px;     
+    }
+    .Experience_cards{
+        padding-top: 100px;
+        width: 500px;
+        padding-left: 200px;
+    }
+    .exp_cards_col{
+        height: 250px;
+    }
+    .exp_card_img{
+        height: 150px;
+        width: 250px;
+    }
+}
