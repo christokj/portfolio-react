@@ -1,0 +1,40 @@
+[
+        {
+            "id": 1,
+            "title":"Chethalan Associates PVT LTD",
+            "position":"Sales Executive",
+            "logo":"https://i.postimg.cc/dZ7Q8WYX/mobile-logoo.png"
+        },
+        {
+            "id":2,
+            "title":"Lava International LTD",
+            "position":"Promoter",
+            "logo":"https://i.postimg.cc/LgJc76mX/lava.png"
+        },
+        {
+            "id":3,
+            "title":"Reliance Jio Infocom LTD",
+            "position":"Promoter",
+            "logo":"https://i.postimg.cc/xqLyGVvy/jio-logo.png" 
+        },
+        {
+            "id":4,
+            "title":"IT Zone Infocom PVT LTD",
+            "position":"Hardware Specialist",
+            "logo":"https://i.postimg.cc/9rndCXC2/hardware-logo.png" 
+        },
+        {
+            "id":5,
+            "title":"Surya Computers Infocom PVT LTD",
+            "position":"Hardware Specialist",
+            "logo":"https://i.postimg.cc/DmbFBB0c/hardware-logoo.png" 
+        },
+        {
+            "id":6,
+            "title":"Sygnio Consultancy Services PVT LTD",
+            "position":"Service Expert",
+            "logo":"https://i.postimg.cc/q6G1jP3R/csc-logo.png" 
+        }
+
+    ]
+
