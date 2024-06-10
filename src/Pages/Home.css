@@ -1,15 +1,16 @@
-
-.Home_bg{
+.Home_bg {
    background-image: url(./Images/home_bg.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    height: 200vh;
 }
-.title_bio{ 
-    align-content: center;
- }
+
+.title_bio {
+   align-content: center;
+}
+
 @media only screen and (max-device-width: 767px) {
- .bio_text{
-    font-size: x-small;
- }
+   .bio_text {
+      font-size: x-small;
+   }
 }

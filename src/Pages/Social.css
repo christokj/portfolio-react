@@ -1,108 +1,130 @@
-
-.icon_twitter{
+.icon_twitter {
     color: #ffff;
-    cursor:pointer;
+    cursor: pointer;
 }
-.icon_twitter:hover{
+
+.icon_twitter:hover {
     color: #24a4f2;
     width: 70px;
     height: 70px;
-    transition:all 0.3s linear;
+    transition: all 0.3s linear;
 }
-.icon_whatsapp{
+
+.icon_whatsapp {
     color: #ffff;
-    cursor:pointer;
+    cursor: pointer;
 }
-.icon_whatsapp:hover{
+
+.icon_whatsapp:hover {
     color: #5bd168;
-    transition:all 0.2s linear;
+    transition: all 0.2s linear;
     width: 70px;
     height: 70px;
 }
-.icon_facebook{
+
+.icon_facebook {
     color: #ffff;
-    cursor:pointer;
+    cursor: pointer;
 }
-.icon_facebook:hover{
+
+.icon_facebook:hover {
     background-color: #0863f7;
     border-radius: 50%;
-    transition:all 0.2s linear;
+    transition: all 0.2s linear;
     width: 70px;
     height: 70px;
 }
-.icon_instagram{
-    cursor:pointer;
+
+.icon_instagram {
+    cursor: pointer;
     color: white;
 }
-.icon_instagram:hover{
+
+.icon_instagram:hover {
     background-image: linear-gradient(#8938c5, #f74f3b);
     border-radius: 30%;
-    transition:all 0.2s linear;
+    transition: all 0.2s linear;
     width: 70px;
     height: 70px;
 }
-.icon_linkedin{
+
+.icon_linkedin {
     color: #ffff;
     border-radius: 50%;
-    cursor:pointer;
+    cursor: pointer;
 }
-.icon_linkedin:hover{
+
+.icon_linkedin:hover {
     color: #0a66c2;
     background-color: #ffff;
-    transition:all 0.2s linear;
+    transition: all 0.2s linear;
     width: 80px;
     height: 80px;
 }
-.icon_gmail{
+
+.icon_gmail {
     color: #ffff;
     width: 100px;
-    height: 100px; 
-    cursor:pointer;
+    height: 100px;
+    cursor: pointer;
 }
-.icon_gmail:hover{
+
+.icon_gmail:hover {
     width: 120px;
-    height: 120px; 
-    transition:all 0.2s linear;
-    .icon_gmail_path_1{
+    height: 120px;
+    transition: all 0.2s linear;
+
+    .icon_gmail_path_1 {
         fill: #4caf50;
     }
-    .icon_gmail_path_2{
+
+    .icon_gmail_path_2 {
         fill: #1e88e5;
     }
-    .icon_gmail_path_3{
+
+    .icon_gmail_path_3 {
         fill: #e53935;
     }
-    .icon_gmail_path_4{
+
+    .icon_gmail_path_4 {
         fill: #c62828;
     }
-    .icon_gmail_path_5{
+
+    .icon_gmail_path_5 {
         fill: #fbc02d;
     }
 }
-.icon_gmail_path_1{
+
+.icon_gmail_path_1 {
     fill: #ffff;
 }
-.icon_gmail_path_2{
+
+.icon_gmail_path_2 {
     fill: #ffff;
 }
-.icon_gmail_path_3{
+
+.icon_gmail_path_3 {
     fill: #ffff;
 }
-.icon_gmail_path_4{
+
+.icon_gmail_path_4 {
     fill: #ffff;
 }
-.icon_gmail_path_5{
+
+.icon_gmail_path_5 {
     fill: #ffff;
 }
-.icon_github{
+
+.icon_github {
     color: #ffff;
-    cursor:pointer;
+    cursor: pointer;
 }
-.icon_github:hover{
+
+.icon_github:hover {
     color: black;
     background-color: #ffff;
     border-radius: 50%;
-    transition:all 0.2s linear;
+    transition: all 0.2s linear;
     width: 80px;
     height: 80px;
 }
